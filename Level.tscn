@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dsngo7eq400ca"]
+
+[node name="Level" type="CSGCombiner3D"]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+size = Vector3(8.736, 0.196093, 8.91144)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.52053, 0.746684, 0)
+size = Vector3(0.479992, 1.51058, 8.91144)
